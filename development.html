@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <title>Development</title>
+    <link rel="stylesheet" href="development.css">
+    <link rel="icon" href="portfolio_logo.png">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="page-header">
+        <div class="header-img"> 
+        </div>
+        <div class="header-text">
+            <h2 class="header-h2">GOT7 Album Store            </h2>
+            <p class="p-header">React app to view, filter, sort GOT7 Albums            </p>
+        </div> 
+        <div class="header-img"> 
+            <img class="personas-lemur" src="development-lemur.png" alt="" title="JumpyLemur431 walking around">
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="to-home">
+            <a name="home" href="./index.html"><button class="button-home" role="button">← Home</button></a>
+        </div>
+        <div class="content-divs">
+            <center>
+                <h2 class="section-h2">Overview</h2>
+            </center>
+            <div class="overview-content">
+                <div class="overview-divs">
+                    <h3 class="h3-text"><b>My Role</b></h3>
+                    <p class="p-text"s>UX Developer</p>
+                </div>
+                <div class="overview-divs">
+                    <h3 class="h3-text"><b>Timeline</b></h3>
+                    <p class="p-text">November 10 - November 29</p>
+                </div>
+                <div class="overview-divs">
+                    <h3 class="h3-text"><b>Team</b></h3>
+                    <p class="p-text">Solo</p>
+                </div>
+                <div class="overview-divs">
+                    <h3 class="h3-text"><b>Tools</b></h3>
+                    <p class="p-text">React, JavaScript, CSS, Balsamiq, HTML</p>
+                </div>
+            </div>
+        </div>
+        <div class="content-divs">
+            <h2 class="section-h2">Problem</h2>
+            <h3 class="sub-titles">Context</h3>
+            <p class="p-text">This application allows <b>users to buy albums by GOT7</b>, a South Korean K-pop boy group.
+                The goal is to allow users to browse all released albums by the group and buy them.
+                The value of the website is to allow users or GOT7 fans to have a <b>one-stop shop to
+                buy all the albums or EPs</b> they would like, with <b>detailed sorting and filtering </b>on each
+                item.</p>
+            <h3 class="sub-titles">Why React?</h3>
+            <p class="p-text">This application is an exploration in using <b>React, a JavaScript library for building
+                user interfaces quickly and efficiently. </b> In React, users can develop applications by 
+                creating reusable components. Therefore, multiple components such as cards and cart items 
+                are re-used in this React app, all while developed in JavaScript and CSS. 
+            </p>
+        </div>
+        <div class="content-divs">
+            <h2 class="section-h2">React Development</h2>
+            <h3 class="sub-titles">React Usability Principles</h3>
+            <p class="p-text"> React usability principles were incorporated in the <b>filters and sorts</b> I included on the page.
+                For general users who would like to browse albums, there are sorts for the <b>price
+                and popularity of the albums</b>. For more serious
+                K-pop or GOT7 fans, they can learn further details on the album such as the <b>lead single producer</b> or the 
+            <b>number of songs on an album.</b> The filters lie on the left of the page with
+                the cart on the right to view all major components of the page at once.</p>
+
+            </p>
+            <h3 class="sub-titles">State Changes</h3>
+            <p class="p-text"> For component state changes, there five states that change. The first is <b>sorting</b> that is updated
+                as a new sort type is selected. Next is the <b>filters</b> that updates when a certain filter is checked in the 
+                check-mark box. Next is the <b>cart</b> that is updated with albums as they are added to the cart. Similarly, the 
+            <b>total</b> amount is updated with an integer value depending on item price. Finally, the cart and filters can be 
+        <b>cleared or reset</b> as needed which changes state. 
+        </div>
+        <div class="content-divs">
+            <h2 class="section-h2">Design Iterations</h2>
+            <h3 class="sub-titles">Low Fidelity Mock-up</h3>
+            <p class="p-text">The following low fidelity mock-up covers the major parts of the React
+                web application. There are <b>three</b> main divs that split the page by the ratio <b>20:60:20</b>.
+            </p>
+            <p class="p-text">The largest div includes the <b>album cards</b>. These will include the album cover image,
+                the name,
+                and additional information that the albums are sorted by. These cards are dynamically changing
+                depending on the filters selected by users
+            </p>
+            <p class="p-text">The left-most div includes all the <b>filters and sorting options</b>. First are sorting
+                options
+                in the form of radio buttons (not pictured in the design). The second are the two filters: by
+                album type and producer in the form of checkboxes. There is also a reset button to reset all filters
+                and sorts.
+            </p>
+            <p class="p-text">The right-most div is the <b>cart</b> for users to add each album to. The cart total
+                updates
+                as users add more items to the cart. The count of each album can also be updated in the cart to include
+                more or less depeding on the users preference. Finally, they can checkout with the selected album
+                names once they have completed shopping. They can also clear the cart to resert shopping. 
+            </p>
+            <center><img class="development-low-fi" src="development.png" /></center>
+            <h3 class="sub-titles">Final Project Page</h3>
+            <p class="p-text">Select the button below to view the project and see the final product. 
+                Please keep in mind this button re-routes to a different webpage so please direct yourself back to this page using the back button 
+                on your browser to come back to this portfolio webpage. 
+            </p>
+            <a href="https://jumpylemur431.github.io/development/">
+                <center><button class="button-project" role="button">View Project</button></center>
+            </a>
+        </div>
+        <div class="content-divs">
+            <h2 class="section-h2">Conclusion</h2>
+            <h3 class="sub-titles">Insights</h3>
+            <p class="p-text">In this project, I learned how exactly <b>React works in building responsive 
+                and interactive webpages.</b> I built my JavaScript knowledge through this project and found
+                the value of building webpages with React.
+            </p>
+            <h3 class="sub-titles">Takeaways</h3>
+            <p class="p-text">A takeaway I had in this project was <b>React components.</b> With React components, 
+                since they are reusable, time is saved as I <b>do not need to write different code for the same features.</b> 
+                Additionally, if I make any changes to a certain part, it does not affect other components in the application. 
+            </p>
+        </div>
+    </div>
+    <div class="to-top">
+        <a name="top" href="#"><button class="button-up" role="button">Top ↑</button></a>
+    </div>
+</body>
+
+</html>

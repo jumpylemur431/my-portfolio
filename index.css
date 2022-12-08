@@ -1,0 +1,261 @@
+@import url(//fonts.googleapis.com/css?family=Lato:400,700);
+:root {
+    --white:                        #ffffff;
+    --green:                        #629677;
+    --pink:                         #AF9AB2;
+    --light-pink:                   #d4bed7;
+    --section-bg-color:             #f9f9f9;
+    --dark-color:                   #000000;
+    --p-color:                      #717275;
+    --border-color:                 #e9eaeb;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--pink);
+    margin: 0px 0px 0px 0px; 
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth; 
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+svg {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    top: 0px;
+}
+  
+.header-h2 {
+    font-size: 3vw;
+    margin: 0px;
+    background: var(--white);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    border-radius: 6.94vw;
+    display: inline-block;
+    padding: .5vw 1.6vw;
+}
+
+.welcome {
+    margin-top: 16vw;
+    padding: .694vw 2.083vw;
+    margin-left: 5%;
+}
+
+.name {
+  padding: .694vw 2.083vw;
+  margin-left: 5%;
+}
+
+.button{
+  padding: .694vw 2.083vw;
+  margin-left: 5%;
+}
+
+
+.profile{
+    border-radius: 100%;
+    width: 31.27vw;
+    height: 31.27vw;
+  }
+
+.profile-2 {
+  border-radius: 100%;
+  width: 15vw;
+  height: 15vw;
+}
+
+.about-me-text{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 19vw;
+  padding-right: 19vw;
+  padding-top: 1vw;
+
+}
+  
+  .head {
+    display: flex;
+  }
+
+  .col-1 {
+    width: 60%;
+    border-radius: 1vw;
+
+  }
+
+  .col-2 {
+    width: 40%;
+    padding-top: 7vw;
+    border-radius: 1vw; 
+  }
+
+  /***********************/
+
+  .porfolio-intro {
+    align-items: center;
+  }
+
+
+  .card {
+    background: var(--section-bg-color);
+    border: 0.138vw solid white;
+    border-radius: var(--border-radius-medium);
+    position: relative;
+    overflow: hidden;
+    margin: 0px 24.31vw 2.77vw 24.31vw;
+    padding: 2.77vw 2.77vw 2.77vw 2.77vw;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .services-thumb-up {
+    position: relative;
+    bottom: 3.47vw;
+    margin-bottom: -3.47vw;
+  }
+
+  .cards {
+    background: var(--white);
+    text-align: center;
+  }
+
+  .card-sections {
+    width: 50%;
+  }
+  
+  .card:hover {
+    border: .138vw solid var(--pink);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    background: var(--border-color);
+    border-color: var(--pink);
+  }
+
+  .about-me-div {
+    background: var(--white);
+    text-align: center;
+    padding-bottom: 2.5vw;
+  }
+
+  .text-about-me{
+    line-height: 1.8;
+    width: 50%;
+  }
+
+  .button-github {
+    margin-left: 0px;
+  }
+
+  .logos {
+    width: 50%;
+  }
+
+  .header-cards {
+    font-size: 2.9vw;
+    margin-bottom: 1.5vw; 
+    font-size: 2.7vw;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background: var(--green);
+    border-radius: 1.042vw;
+    margin-top: 2vw;
+    display: inline-block;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    width: 60vw;
+    color: white;
+}
+
+  .p-cards{
+    padding-bottom: 1vw;
+  }
+
+
+  /*******************/
+
+  .button-more {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--pink);
+    border: 0.138vw solid var(--green);
+    border-radius: 2.083vw;
+    box-shadow: var(--green) 0.28vw 0.28vw 0 0;
+    color: var(--white);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5vw;
+    padding: 0 1.25vw;
+    line-height: 3.472vw;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-more:hover {
+    background-color: var(--light-pink);
+  }
+  
+  .button-more:active {
+    box-shadow: var(--green) 0.138vw 0.138vw 0 0;
+    transform: translate(0.138vw, 0.138vw);
+  }
+  
+  @media (min-width: 54vw) {
+    .button-more {
+      min-width: 8.5vw;
+      padding: 0 1.73vw;
+    }
+  }
+
+
+  .a-tag{
+    text-decoration: none;
+  }
+
+
+  /**********/
+  .container{
+    position:relative;
+    background: #f90;
+    width:  13.89vw;
+    height: 8.34vw;
+    margin: 0 auto;
+    }
+    .containeroverlap{
+    position: relative;
+    z-index: 1;
+    }
+    .button-overlap{
+    position: absolute;
+    z-index: 2;
+    top: 3.05vw;
+    display: none;
+    left: 4.097vw;	
+    }
+    .container:hover .button-overlap{ 
+    display:block;
+    }
+
+    .footer {
+      text-align: center;
+    }
+
+    .footer-text {
+      color: var(--white);
+    }
